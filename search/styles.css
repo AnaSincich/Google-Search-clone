@@ -1,0 +1,188 @@
+
+/*The CSS you write should resemble Google’s own aesthetics.*/
+
+/*General*/
+
+body {
+    margin: 0px;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+
+/*Navbar*/
+
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: right;   
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+}
+
+a:link {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4285f4;
+}
+
+a:hover {
+    color: #4285f4;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #4285f4;
+}
+
+/*logo*/
+
+.logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Input*/
+
+/*Like Google’s own, your search bar should be centered with rounded corners. The search button
+should also be centered, and should be beneath the search bar.*/
+.rounded {
+    display:flex;
+    z-index: 3;
+    height: 44px;
+    background: white;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 30px auto;
+    padding-left: 20px;
+    width: 584px;
+}
+
+.btn-div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    margin: 0px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Google Images*/
+
+.images {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+    white-space: nowrap;
+}
+
+
+/* Google Advanced Search */
+
+
+.advanced-searcher {
+    margin: 30px 10px;
+}
+
+.advanced-searcher label {
+    color: #d93025;
+    font-size: 20px;
+    margin: 50px 30px;
+}
+  
+.separator-line {
+    border-bottom: solid 1px #d6d6d6;
+}
+
+.advanced-search-container {
+    margin: 50px 40px;
+}
+
+/*Like Google’s own Advanced Search page, the four options should be stacked vertically,
+and all of the text fields should be left aligned.*/
+.advanced-search-container label {
+    display: inline-block;
+    justify-content: left;  
+    font-size: 16px;
+}
+
+
+.space {
+    display: inline-block;
+    width:20%;
+}
+
+.form-group {
+    display: flex;
+    align-items: left;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.form-group label {
+    width: 9%;
+    align-items: left;
+    font-size: 13px;
+}
+
+.examples {
+    font-size: 13px;
+    width: 30%;
+    margin-left: 1%;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.advanced-input {
+    font-size: 13px;
+    width: 300px;
+    padding: 5px;
+    color: #464646;
+    justify-content: left;  
+    padding-left: 10px;
+    border: 1px solid #afafaf;
+}
+
+/*Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text.*/
+.advanced-button {
+    background-color: #4285F4;
+    color: white;
+    font-size: 13px;
+    max-width: 300px;
+    border-radius: 0px;
+    border: 1px solid #156bbd;
+    float: right;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.btn-align {
+    width: 30%;
+}
